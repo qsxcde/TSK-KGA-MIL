@@ -1,0 +1,37 @@
+2026-07-01 08:12:35 | INFO | Loading dataset from data/bechmark/musk2+.mat
+2026-07-01 08:12:35 | INFO | Loaded 102 bags with label distribution [63 39]
+2026-07-01 08:12:35 | INFO | Starting fold 1/5
+2026-07-01 08:13:48 | INFO | Fold 1 best acc: 0.8571
+2026-07-01 08:13:48 | INFO | Fold 1 model saved to results/benchmark_2026_07_01/artifacts/models/musk2+/musk2+_fold_1.pth
+2026-07-01 08:13:48 | INFO | Fold 1 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_1_sample_0_explanation.npz
+2026-07-01 08:13:48 | INFO | Fold 1 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_1_sample_1_explanation.npz
+2026-07-01 08:13:48 | INFO | Fold 1 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_1_sample_2_explanation.npz
+2026-07-01 08:13:48 | INFO | Starting fold 2/5
+2026-07-01 08:14:59 | INFO | Fold 2 best acc: 0.9524
+2026-07-01 08:14:59 | INFO | Fold 2 model saved to results/benchmark_2026_07_01/artifacts/models/musk2+/musk2+_fold_2.pth
+2026-07-01 08:14:59 | INFO | Fold 2 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_2_sample_0_explanation.npz
+2026-07-01 08:14:59 | INFO | Fold 2 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_2_sample_1_explanation.npz
+2026-07-01 08:14:59 | INFO | Fold 2 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_2_sample_2_explanation.npz
+2026-07-01 08:14:59 | INFO | Starting fold 3/5
+2026-07-01 08:16:09 | INFO | Fold 3 best acc: 0.9000
+2026-07-01 08:16:09 | INFO | Fold 3 model saved to results/benchmark_2026_07_01/artifacts/models/musk2+/musk2+_fold_3.pth
+2026-07-01 08:16:09 | INFO | Fold 3 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_3_sample_0_explanation.npz
+2026-07-01 08:16:09 | INFO | Fold 3 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_3_sample_1_explanation.npz
+2026-07-01 08:16:09 | INFO | Fold 3 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_3_sample_2_explanation.npz
+2026-07-01 08:16:09 | INFO | Starting fold 4/5
+2026-07-01 08:17:20 | INFO | Fold 4 best acc: 0.9000
+2026-07-01 08:17:20 | INFO | Fold 4 model saved to results/benchmark_2026_07_01/artifacts/models/musk2+/musk2+_fold_4.pth
+2026-07-01 08:17:20 | INFO | Fold 4 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_4_sample_0_explanation.npz
+2026-07-01 08:17:20 | INFO | Fold 4 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_4_sample_1_explanation.npz
+2026-07-01 08:17:20 | INFO | Fold 4 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_4_sample_2_explanation.npz
+2026-07-01 08:17:20 | INFO | Starting fold 5/5
+2026-07-01 08:18:31 | INFO | Fold 5 best acc: 0.9000
+2026-07-01 08:18:31 | INFO | Fold 5 model saved to results/benchmark_2026_07_01/artifacts/models/musk2+/musk2+_fold_5.pth
+2026-07-01 08:18:31 | INFO | Fold 5 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_5_sample_0_explanation.npz
+2026-07-01 08:18:31 | INFO | Fold 5 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_5_sample_1_explanation.npz
+2026-07-01 08:18:31 | INFO | Fold 5 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_fold_5_sample_2_explanation.npz
+2026-07-01 08:18:31 | INFO | K-fold finished for musk2+
+2026-07-01 08:18:31 | INFO | Fold scores: ['0.8571', '0.9524', '0.9000', '0.9000', '0.9000']
+2026-07-01 08:18:31 | INFO | Mean acc: 0.9019
+2026-07-01 08:18:31 | INFO | Std acc: 0.0338
+2026-07-01 08:18:31 | INFO | Explanation manifest saved to results/benchmark_2026_07_01/artifacts/explanations/musk2+/musk2+_explanations_manifest.json

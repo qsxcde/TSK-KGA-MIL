@@ -1,0 +1,35 @@
+algorithm:
+  name: ds_tsk_mil
+
+model:
+  num_rules: 6
+  rule_output_dim: 1
+  aggregation_method: attention
+  hidden_dim: 128
+  fcm_m: 2.0
+  fcm_max_iter: 100
+  rule_temperature: 0.5
+  use_competitive_scoring: true
+
+training:
+  batch_size: 1
+  lr: 0.001
+  max_epoch: 100
+  patience: 100
+  device: mps
+
+cross_validation:
+  n_splits: 5
+  random_state: 42
+
+output:
+  root_dir: results
+  run_name: benchmark_2026_07_04_02
+  explanation_samples_per_fold: 3
+
+datasets:
+  - config: ../../datasets/benchmark/elephant.yaml
+  - config: ../../datasets/benchmark/fox.yaml
+  - config: ../../datasets/benchmark/musk1.yaml
+  - config: ../../datasets/benchmark/musk2.yaml
+  - config: ../../datasets/benchmark/tiger.yaml

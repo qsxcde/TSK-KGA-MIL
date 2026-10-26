@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local runs (outputs of scripts when output.root_dir is the repo root)
+runs/
+outputs/
+
+# Trained model checkpoints (regenerable; contain learned antecedent parameters)
+*.pth
+*.pt
+results/**/models/

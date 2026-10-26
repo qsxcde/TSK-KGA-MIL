@@ -1,0 +1,37 @@
+2026-07-01 07:55:36 | INFO | Loading dataset from data/bechmark/elephant+.mat
+2026-07-01 07:55:36 | INFO | Loaded 200 bags with label distribution [100 100]
+2026-07-01 07:55:36 | INFO | Starting fold 1/5
+2026-07-01 07:56:59 | INFO | Fold 1 best acc: 0.9250
+2026-07-01 07:56:59 | INFO | Fold 1 model saved to results/benchmark_2026_07_01/artifacts/models/elephant+/elephant+_fold_1.pth
+2026-07-01 07:56:59 | INFO | Fold 1 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_1_sample_0_explanation.npz
+2026-07-01 07:56:59 | INFO | Fold 1 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_1_sample_1_explanation.npz
+2026-07-01 07:56:59 | INFO | Fold 1 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_1_sample_2_explanation.npz
+2026-07-01 07:56:59 | INFO | Starting fold 2/5
+2026-07-01 07:58:22 | INFO | Fold 2 best acc: 0.9000
+2026-07-01 07:58:22 | INFO | Fold 2 model saved to results/benchmark_2026_07_01/artifacts/models/elephant+/elephant+_fold_2.pth
+2026-07-01 07:58:22 | INFO | Fold 2 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_2_sample_0_explanation.npz
+2026-07-01 07:58:22 | INFO | Fold 2 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_2_sample_1_explanation.npz
+2026-07-01 07:58:22 | INFO | Fold 2 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_2_sample_2_explanation.npz
+2026-07-01 07:58:22 | INFO | Starting fold 3/5
+2026-07-01 07:59:44 | INFO | Fold 3 best acc: 0.9250
+2026-07-01 07:59:44 | INFO | Fold 3 model saved to results/benchmark_2026_07_01/artifacts/models/elephant+/elephant+_fold_3.pth
+2026-07-01 07:59:44 | INFO | Fold 3 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_3_sample_0_explanation.npz
+2026-07-01 07:59:44 | INFO | Fold 3 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_3_sample_1_explanation.npz
+2026-07-01 07:59:44 | INFO | Fold 3 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_3_sample_2_explanation.npz
+2026-07-01 07:59:44 | INFO | Starting fold 4/5
+2026-07-01 08:01:11 | INFO | Fold 4 best acc: 0.9000
+2026-07-01 08:01:11 | INFO | Fold 4 model saved to results/benchmark_2026_07_01/artifacts/models/elephant+/elephant+_fold_4.pth
+2026-07-01 08:01:11 | INFO | Fold 4 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_4_sample_0_explanation.npz
+2026-07-01 08:01:11 | INFO | Fold 4 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_4_sample_1_explanation.npz
+2026-07-01 08:01:11 | INFO | Fold 4 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_4_sample_2_explanation.npz
+2026-07-01 08:01:11 | INFO | Starting fold 5/5
+2026-07-01 08:02:33 | INFO | Fold 5 best acc: 0.9000
+2026-07-01 08:02:33 | INFO | Fold 5 model saved to results/benchmark_2026_07_01/artifacts/models/elephant+/elephant+_fold_5.pth
+2026-07-01 08:02:33 | INFO | Fold 5 explanation sample 0 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_5_sample_0_explanation.npz
+2026-07-01 08:02:33 | INFO | Fold 5 explanation sample 1 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_5_sample_1_explanation.npz
+2026-07-01 08:02:33 | INFO | Fold 5 explanation sample 2 saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_fold_5_sample_2_explanation.npz
+2026-07-01 08:02:33 | INFO | K-fold finished for elephant+
+2026-07-01 08:02:33 | INFO | Fold scores: ['0.9250', '0.9000', '0.9250', '0.9000', '0.9000']
+2026-07-01 08:02:33 | INFO | Mean acc: 0.9100
+2026-07-01 08:02:33 | INFO | Std acc: 0.0137
+2026-07-01 08:02:33 | INFO | Explanation manifest saved to results/benchmark_2026_07_01/artifacts/explanations/elephant+/elephant+_explanations_manifest.json

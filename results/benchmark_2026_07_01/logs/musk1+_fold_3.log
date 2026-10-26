@@ -1,0 +1,14 @@
+2026-07-01 08:10:41 | INFO | Using DKMIL-style bag-wise batch sizes - train: 1, val: 1
+2026-07-01 08:10:41 | INFO | Starting training...
+2026-07-01 08:10:45 | INFO | Epoch 10/100: Train Loss: 0.0022, Val Loss: 0.0257, Val Acc: 1.0000, Val F1: 1.0000, Val AUC: 1.0000
+2026-07-01 08:10:49 | INFO | Epoch 20/100: Train Loss: 0.0003, Val Loss: 0.0545, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:10:53 | INFO | Epoch 30/100: Train Loss: 0.0001, Val Loss: 0.0689, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:10:57 | INFO | Epoch 40/100: Train Loss: 0.0000, Val Loss: 0.0773, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:00 | INFO | Epoch 50/100: Train Loss: 0.0000, Val Loss: 0.0824, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:04 | INFO | Epoch 60/100: Train Loss: 0.0000, Val Loss: 0.0863, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:08 | INFO | Epoch 70/100: Train Loss: 0.0000, Val Loss: 0.0892, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:12 | INFO | Epoch 80/100: Train Loss: 0.0000, Val Loss: 0.0923, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:16 | INFO | Epoch 90/100: Train Loss: 0.0000, Val Loss: 0.0934, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:19 | INFO | Epoch 100/100: Train Loss: 0.0000, Val Loss: 0.0951, Val Acc: 0.9444, Val F1: 0.9474, Val AUC: 1.0000
+2026-07-01 08:11:19 | INFO | 训练完成! 耗时: 37.98秒
+2026-07-01 08:11:19 | INFO | 最佳验证准确率: 1.0000 (第 5 轮)

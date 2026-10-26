@@ -1,0 +1,50 @@
+algorithm:
+  name: ds_tsk_mil
+
+model:
+  num_rules: 6
+  rule_output_dim: 1
+  aggregation_method: attention
+  hidden_dim: 128
+  fcm_m: 2.0
+  fcm_max_iter: 100
+  rule_temperature: 0.5
+  use_competitive_scoring: true
+
+training:
+  batch_size: 1
+  lr: 0.001
+  max_epoch: 100
+  patience: 100
+  device: mps
+
+cross_validation:
+  n_splits: 5
+  random_state: 42
+
+output:
+  root_dir: results
+  run_name: newsgroups_2026_07_01
+  explanation_samples_per_fold: 3
+
+datasets:
+  - config: ../../datasets/newsgroups/alt_atheism.yaml
+  - config: ../../datasets/newsgroups/comp_graphics.yaml
+  - config: ../../datasets/newsgroups/comp_os_ms-windows_misc.yaml
+  - config: ../../datasets/newsgroups/comp_sys_ibm_pc_hardware.yaml
+  - config: ../../datasets/newsgroups/comp_sys_mac_hardware.yaml
+  - config: ../../datasets/newsgroups/comp_windows_x.yaml
+  - config: ../../datasets/newsgroups/misc_forsale.yaml
+  - config: ../../datasets/newsgroups/rec_autos.yaml
+  - config: ../../datasets/newsgroups/rec_motorcycles.yaml
+  - config: ../../datasets/newsgroups/rec_sport_baseball.yaml
+  - config: ../../datasets/newsgroups/rec_sport_hockey.yaml
+  - config: ../../datasets/newsgroups/sci_crypt.yaml
+  - config: ../../datasets/newsgroups/sci_electronics.yaml
+  - config: ../../datasets/newsgroups/sci_med.yaml
+  - config: ../../datasets/newsgroups/sci_religion_christian.yaml
+  - config: ../../datasets/newsgroups/sci_space.yaml
+  - config: ../../datasets/newsgroups/talk_politics_guns.yaml
+  - config: ../../datasets/newsgroups/talk_politics_mideast.yaml
+  - config: ../../datasets/newsgroups/talk_politics_misc.yaml
+  - config: ../../datasets/newsgroups/talk_religion_misc.yaml

@@ -1,0 +1,25 @@
+base_experiment_config: ../experiments/ds_tsk_mil/ds_tsk_mil_smoke.yaml
+study:
+  name: ds_tsk_mil_smoke_sensitivity
+  output_root_dir: artifacts/sensitivity/704_3
+  continue_on_error: true
+  resume: true
+sweeps:
+  - name: num_rules
+    param: model.num_rules
+    values: [2, 4, 6, 8, 10]
+  - name: hidden_dim
+    param: model.hidden_dim
+    values: [32, 64, 128, 256, 512]
+  - name: rule_temperature
+    param: model.rule_temperature
+    values: [0.2]
+  - name: lr
+    param: training.lr
+    values: [0.0001, 0.0005, 0.001, 0.005]
+report:
+  metrics: [auc, f1, acc]
+  primary_metric: auc
+  generate_html: true
+  generate_plots: true
+  include_explanation_metrics: false
